@@ -1,10 +1,10 @@
 ### 命令行：
 """
 python model.py \
-  --genes dataset/X_0_all.csv \
+  --genes dataset/PROGENy_gene.csv \
   --tf dataset/PROGENy_tf.csv \
   --mirna dataset/PROGENy_mirna.csv \
-  --labels dataset/Y_all.csv \
+  --labels dataset/PROGENy_labels.csv \
   --fusion concat \
   --select 1 0 0  \
   --hidden 1024 \
